@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7944ce4-1fab-4857-bf95-fde6c673a4d5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YWREGT1iu8snHFjpc1xur5U6RN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/service-provider/src/main/java" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Consumer" />
+      <module name="service-consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="demo1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Provider" />
+      <module name="service-provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7944ce4-1fab-4857-bf95-fde6c673a4d5" name="Default Changelist" comment="" />
+      <created>1583056250693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583056250693</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="836" y="388" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1583498539479">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="836" y="388" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.2048.1112@0.0.2048.1112" timestamp="1583498539479" />
+    <state x="745" y="234" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583415688430">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="745" y="234" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583415688430" />
+    <state width="499" height="466" key="DebuggerActiveHint" timestamp="1583848280274">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="499" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1583848280274" />
+    <state x="828" y="381" key="FileChooserDialogImpl" timestamp="1583056295289">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="828" y="381" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1583056295289" />
+    <state width="2005" height="266" key="GridCell.Tab.0.bottom" timestamp="1583848863757">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583848863757" />
+    <state width="2005" height="266" key="GridCell.Tab.0.center" timestamp="1583848863757">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583848863757" />
+    <state width="2005" height="266" key="GridCell.Tab.0.left" timestamp="1583848863757">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583848863757" />
+    <state width="2005" height="266" key="GridCell.Tab.0.right" timestamp="1583848863757">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="266" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583848863757" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583848861646">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583848861646" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1583848861646">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583848861646" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1583848861646">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583848861646" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1583848861646">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583848861646" />
+    <state x="528" y="201" key="SettingsEditor" timestamp="1583415718792">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="528" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1583415718792" />
+    <state x="821" y="334" key="chooseDestDirectoryDialog" timestamp="1583846826764">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="821" y="334" key="chooseDestDirectoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583846826764" />
+    <state x="717" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1583641191640">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="717" y="384" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583641191640" />
+    <state x="0" y="169" key="new project wizard" timestamp="1583846792824">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="0" y="169" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1583846792824" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.5/dubbo-2.7.5-sources.jar!/org/apache/dubbo/config/utils/ConfigValidationUtils.java</url>
+          <line>369</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-provider/src/main/java/Provider.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-provider/src/main/java/Provider.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.5/dubbo-2.7.5-sources.jar!/org/apache/dubbo/config/bootstrap/DubboBootstrap.java</url>
+          <line>528</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
