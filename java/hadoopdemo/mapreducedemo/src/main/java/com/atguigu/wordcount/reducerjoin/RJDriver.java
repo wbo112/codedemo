@@ -12,6 +12,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.server.jobtracker.JTConfig;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +22,7 @@ public class RJDriver {
         args=new String[]{"F:\\tmp\\input1","F:\\tmp\\output1"};
         FileUtils.deleteDirectory(new File(args[1]));
         Job job = Job.getInstance(new Configuration());
+        job.getConfiguration().set(JTConfig.JT_STAGING_AREA_ROOT,"F:\\tmp\\temp1");
         job.setJarByClass(RJDriver.class);
         job.setMapperClass(RJMapper.class);
         job.setReducerClass(RJReducer.class);

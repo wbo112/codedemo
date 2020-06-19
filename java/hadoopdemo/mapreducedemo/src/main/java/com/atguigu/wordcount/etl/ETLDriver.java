@@ -20,7 +20,7 @@ public class ETLDriver {
         FileUtils.deleteDirectory(new File(args[1]));
         Job job = Job.getInstance(new Configuration());
 
-        System.setProperty(JTConfig.JT_STAGING_AREA_ROOT,"F:\\tmp\\temp1");
+        job.getConfiguration().set(JTConfig.JT_STAGING_AREA_ROOT,"F:\\tmp\\temp1");
         job.setJarByClass(ETLDriver.class);
         job.setMapperClass(ETLMapper.class);
         job.setNumReduceTasks(0);

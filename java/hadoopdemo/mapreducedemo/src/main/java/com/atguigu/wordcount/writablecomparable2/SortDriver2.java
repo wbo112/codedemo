@@ -9,12 +9,14 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.server.jobtracker.JTConfig;
 
 import java.io.IOException;
 
 public class SortDriver2 {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Job job= Job.getInstance(new Configuration());
+        job.getConfiguration().set(JTConfig.JT_STAGING_AREA_ROOT,"F:\\tmp\\temp1");
         job.setJarByClass(SortDriver2.class);
         job.setMapperClass(SortMapper.class);
         job.setReducerClass(SortReducer.class);
