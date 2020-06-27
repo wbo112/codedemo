@@ -19,7 +19,8 @@ public class ETLDriver {
         args=new String[]{"F:\\tmp\\input2","F:\\tmp\\output2"};
         FileUtils.deleteDirectory(new File(args[1]));
         Job job = Job.getInstance(new Configuration());
-
+//        job.getConfiguration().set("mapreduce.map.output.compress","true");
+        //job.getConfiguration().set("mapreduce.map.output.compress.codec",);
         job.getConfiguration().set(JTConfig.JT_STAGING_AREA_ROOT,"F:\\tmp\\temp1");
         job.setJarByClass(ETLDriver.class);
         job.setMapperClass(ETLMapper.class);
