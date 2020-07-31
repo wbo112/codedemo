@@ -21,4 +21,15 @@ var heroes map[string]string=map[string]string{
 "hero2":"卢俊义",
 }
 fmt.Println(heroes)
+
+
+studentMap:=make(map[string]map[string]string)
+studentMap["stu01"]=make(map[string]string,3)
+studentMap["stu01"]["name"]="tom"
+studentMap["stu01"]["sex"]="男"
+studentMap["stu02"]=make(map[string]string,3)
+studentMap["stu02"]["name"]="mary"
+studentMap["stu02"]["sex"]="女"
+fmt.Println(studentMap)
+fmt.Println(studentMap["stu01"]["name"])
 }
