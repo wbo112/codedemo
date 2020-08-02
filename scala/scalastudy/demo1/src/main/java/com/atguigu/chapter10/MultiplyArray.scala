@@ -14,7 +14,8 @@ object MultiplyArray {
       println()
     }
     //指定取出
-    println(arr(1)(1)) // 0
+    println(arr(1
+    )(1)) // 0
 
     //修改值
     arr(1)(1) = 100
