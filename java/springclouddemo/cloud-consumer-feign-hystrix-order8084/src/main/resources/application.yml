@@ -1,0 +1,26 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: cloud-consumer-feign-hystrix-order
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      #defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      defaultZone: http://eureka7001:7001/eureka,http://eureka7002:7002/eureka
+
+#OpenFeign 调用超时设置
+ribbon:
+  #指简历连接所用的时间
+  ReadTimeout: 5000
+  #建立连接后从服务器读取数据时间
+  ConnectTimout: 5000
+
+logging:
+  level:
+    #feign日志以什么级别监控哪个接口
+    con.atguigu.springcloud: debug
+feign:
+  hystrix:
+    enabled: true
