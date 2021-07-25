@@ -13,6 +13,7 @@ public class SpringbootconfigurationApplication  {
 
     public static void main(String[] args) {
         String p=SpringbootconfigurationApplication.class.getClassLoader().getResource("").getPath()+"generate-class";
+        //设置生成代理类的class文件保存到本地位置
         System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY,p);
         SpringApplication.run(SpringbootconfigurationApplication.class, args);
     }
