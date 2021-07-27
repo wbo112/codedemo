@@ -1,13 +1,17 @@
 package com.wbo112.asm;
 
+import org.objectweb.asm.Handle;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Type;
 import org.objectweb.asm.commons.AdviceAdapter;
 
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+
 public class AddTimerMethodAdapter6 extends AdviceAdapter {
     private String owner;
     private int localVarIndex;
-    //private int localVarIndex1;;
 
     public AddTimerMethodAdapter6(int access, String name, String desc,
                                   MethodVisitor mv, String owner) {
@@ -34,18 +38,18 @@ public class AddTimerMethodAdapter6 extends AdviceAdapter {
         int localVarIndex1 = newLocal(Type.LONG_TYPE);
         mv.visitVarInsn(LSTORE, localVarIndex1);
         mv.visitFieldInsn(GETSTATIC, "java/lang/System", "out", "Ljava/io/PrintStream;");
-//                "currentTimeMillis", "()J");
+
+
+        Handle handle = new Handle(
+                H_INVOKESTATIC,
+                Type.getInternalName(java.lang.invoke.StringConcatFactory.class),
+                "makeConcatWithConstants",
+                MethodType.methodType(CallSite.class, MethodHandles.Lookup.class, String.class, MethodType.class, String.class, Object[].class).toMethodDescriptorString(),
+                false);
         mv.visitVarInsn(LLOAD, localVarIndex1);
 
-//        mv.visitFieldInsn(GETSTATIC, owner, "timer", "J");
-        mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(J)V", false);
-//                "currentTimeMillis", "()J");
-//        mv.visitInsn(LADD);
-//        mv.visitFieldInsn(PUTSTATIC, owner, "timer", "J");
-    }
+        mv.visitInvokeDynamicInsn("makeConcatWithConstants", "(J)Ljava/lang/String;", handle, "\2 aaa\1", "abc");
 
-//    @Override
-//    public void visitMaxs(int maxStack, int maxLocals) {
-//        super.visitMaxs(maxStack + 4, maxLocals+4);
-//    }
+        mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+    }
 }
