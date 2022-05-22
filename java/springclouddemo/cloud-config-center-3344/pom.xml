@@ -22,6 +22,14 @@
         </dependency>
 
         <dependency>
+<<<<<<< HEAD
+=======
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+        </dependency>
+
+        <dependency>
+>>>>>>> 4d186a95142791e5ae4308ca6ffb69d0a767720e
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>

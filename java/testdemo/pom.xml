@@ -6,6 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>testdemo</artifactId>
+<<<<<<< HEAD
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -18,6 +19,9 @@
         <module>asmdemo</module>
         <module>nowcoder</module>
     </modules>
+=======
+    <version>1.0-SNAPSHOT</version>
+>>>>>>> 4d186a95142791e5ae4308ca6ffb69d0a767720e
 
 
 </project>

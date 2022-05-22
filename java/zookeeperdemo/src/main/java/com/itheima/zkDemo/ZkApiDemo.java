@@ -10,7 +10,11 @@ public class ZkApiDemo {
     public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
 
         //1、创建zookeeper连接
+<<<<<<< HEAD
         ZooKeeper zooKeeper = new ZooKeeper("192.168.50.190", 2000, new Watcher() {
+=======
+        ZooKeeper zooKeeper = new ZooKeeper("192.168.50.229:2181", 2000, new Watcher() {
+>>>>>>> 4d186a95142791e5ae4308ca6ffb69d0a767720e
 
             @Override
             public void process(WatchedEvent watchedEvent) {
