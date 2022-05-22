@@ -10,7 +10,6 @@ if __name__ == "__main__":
 
     sc = spark.sparkContext
 
-
     df = spark.read.format("json").load("../data/sql/people.json")
 
     df.printSchema()
