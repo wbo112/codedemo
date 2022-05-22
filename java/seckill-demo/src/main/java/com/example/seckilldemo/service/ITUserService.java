@@ -6,6 +6,9 @@ import com.example.seckilldemo.exception.GlobalException;
 import com.example.seckilldemo.vo.LoginVo;
 import com.example.seckilldemo.vo.RespBean;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 /**
  * <p>
  *  服务类
@@ -16,5 +19,6 @@ import com.example.seckilldemo.vo.RespBean;
  */
 public interface ITUserService extends IService<TUser> {
 
-    RespBean doLogin(LoginVo loginVo) throws GlobalException;
+    RespBean doLogin(LoginVo loginVo, HttpServletRequest request, HttpServletResponse response) throws GlobalException;
+   TUser getUserByCookie(String userTicker);
 }

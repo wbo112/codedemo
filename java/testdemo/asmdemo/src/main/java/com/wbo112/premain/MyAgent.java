@@ -1,4 +1,4 @@
-package com.wbo112.asm;
+package com.wbo112.premain;
 
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public class MyAgent {
     public static void premain(String args, Instrumentation inst) {
-
+        //args 是命令行的入参
         inst.addTransformer(new AsmTransformer(args));
     }
 
@@ -26,6 +26,7 @@ public class MyAgent {
 
         @Override
         public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined, ProtectionDomain protectionDomain, byte[] classfileBuffer) throws IllegalClassFormatException {
+           //转换指定包名开头的类
             if (Objects.nonNull(pkg) && className.startsWith(pkg)) {
                 try {
                     ClassReader cr = new ClassReader(classfileBuffer);

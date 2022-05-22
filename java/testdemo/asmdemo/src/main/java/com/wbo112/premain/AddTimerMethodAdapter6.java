@@ -1,4 +1,4 @@
-package com.wbo112.asm;
+package com.wbo112.premain;
 
 import org.objectweb.asm.Handle;
 import org.objectweb.asm.MethodVisitor;
@@ -11,6 +11,7 @@ import java.lang.invoke.MethodType;
 
 public class AddTimerMethodAdapter6 extends AdviceAdapter {
     private String owner;
+
     private int localVarIndex;
 
     public AddTimerMethodAdapter6(int access, String name, String desc,
@@ -48,7 +49,7 @@ public class AddTimerMethodAdapter6 extends AdviceAdapter {
                 false);
         mv.visitVarInsn(LLOAD, localVarIndex1);
 
-        mv.visitInvokeDynamicInsn("makeConcatWithConstants", "(J)Ljava/lang/String;", handle, "\2 aaa\1", "abc");
+        mv.visitInvokeDynamicInsn("makeConcatWithConstants", "(J)Ljava/lang/String;", handle, this.getName()+"  time : \1");
 
         mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
     }

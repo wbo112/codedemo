@@ -1,0 +1,18 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.50.154”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+  SecKeyShm.cpp
+D:\code\codedemo\c\cdemo\source\repos\linux_share_memory\linux_share_memory\SecKeyShm.cpp(13,31): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\code\codedemo\c\cdemo\source\repos\linux_share_memory\linux_share_memory\SecKeyShm.cpp(13,31): warning :   ShareMemory(key, sizeof(int) + maxNode*sizeof(NodeSHMInfo)), m_maxNode(maxNode)
+D:\code\codedemo\c\cdemo\source\repos\linux_share_memory\linux_share_memory\SecKeyShm.cpp(13,31): warning :                    ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\code\codedemo\c\cdemo\source\repos\linux_share_memory\linux_share_memory\SecKeyShm.cpp(34,36): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\code\codedemo\c\cdemo\source\repos\linux_share_memory\linux_share_memory\SecKeyShm.cpp(34,36): warning :   ShareMemory(pathName, sizeof(int) + maxNode*sizeof(NodeSHMInfo)), m_maxNode(maxNode)
+D:\code\codedemo\c\cdemo\source\repos\linux_share_memory\linux_share_memory\SecKeyShm.cpp(34,36): warning :                         ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ShareMemory.cpp
+  正在链接对象
+  linux_share_memory.vcxproj -> D:\code\codedemo\c\cdemo\source\repos\linux_share_memory\linux_share_memory\bin\x64\Debug\linux_share_memory.out

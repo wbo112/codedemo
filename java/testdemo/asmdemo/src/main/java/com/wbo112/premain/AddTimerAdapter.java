@@ -1,4 +1,4 @@
-package com.wbo112.asm;
+package com.wbo112.premain;
 
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.FieldVisitor;

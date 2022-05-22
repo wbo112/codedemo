@@ -1,2 +1,4 @@
-package com.wbo112.jedis.controller;public class HelloController {
+package com.wbo112.jedis.controller;
+
+public class HelloController {
 }

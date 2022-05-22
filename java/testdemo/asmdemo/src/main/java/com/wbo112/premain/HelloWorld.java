@@ -1,4 +1,4 @@
-package com.wbo112.asm;
+package com.wbo112.premain;
 
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
@@ -22,8 +22,7 @@ public class HelloWorld {
         outputStream.write(cw.toByteArray());
         outputStream.close();
 
-        System.out.println(Type.getMethodType("(J)Ljava/lang/String;").getArgumentTypes()[0].getClassName());
-        System.out.println(Type.getMethodType("(J)Ljava/lang/String;").getReturnType().getClassName());
+
 
     }
 
